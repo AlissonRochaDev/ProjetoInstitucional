@@ -1,0 +1,296 @@
+/* AJUSTES PÁGINA CONTATO */
+
+/* RESOLUÇÃO PARA TABLET */
+@media screen and (max-width: 992px) {
+    .topo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    #containerService{
+        text-align: center;
+        padding: 2rem;
+    }
+
+    #containerContato{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .boxMenuDesktop{
+        display: none;
+    }
+
+    .imgBanner{
+        width: 100%;
+    }
+
+    .boxServices{
+        text-align: center;
+    }
+
+    .boxServicos{
+        max-width: 400px;
+        margin-bottom: 2rem;
+        background-color: var(--cor-cinza-dark);
+        color: var(--bg-branco);
+        border-radius: 6px;
+        box-shadow: 6px 6px 8px var(--cor-cinza-claro);
+    }
+
+    .gridServices{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgServices{
+        width: 100%;
+        max-width: 400px;
+        padding: 0.6rem;
+        border-radius: 6px;
+    }
+
+    .imgServicos{
+        width: 100%;
+        max-width: 400px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .boxDepoimentos{
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .imgUser{
+        max-width: 300px;
+    }
+
+    .formContato{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .setMap{
+        width: 100%;
+        height: 400px;
+    }
+
+    .boxForm{
+        width: 100%;
+        background-color: #3e98ff;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+
+    input{
+        width: 100%;
+        height: 35px;
+        border: none;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+        padding-left: 8px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--bg-preto);
+    }
+
+    input:hover{
+        background-color: var(--bg-input-hover);
+    }
+
+    textarea{
+        width: 100%;
+        height: 90px;
+        border: none;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+        padding-left: 8px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--bg-preto);
+    }
+
+    textarea:hover{
+        background-color: var(--bg-input-hover);
+    }
+
+    .info{
+        justify-items: center;
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .menuFooterMobile{
+        text-align: center;
+    }
+
+    .iconRS{
+        justify-content: center;
+    }
+
+    .boxFotos{
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .imgCursos{
+        width: 100%;
+        padding: 1rem 1rem 1rem 0rem;
+    }
+
+    .descricaoFotos{
+        padding: 2rem 1rem;
+    }
+}
+
+/* RESOLUÇÃO PARA DESKTOP */
+@media screen and (min-width: 992px){
+    .boxMenuMobile{
+        display: none;
+    }
+
+    /* FORMATAÇÃO DO BANNER HOME PAGE */
+    .imgBanner{
+        width: 100%;
+        height: 560px;
+    }
+
+    .imgServices{
+        width: 320px;
+        border-radius: 6px;
+        box-shadow: 6px 6px 8px var(--cor-cinza-claro);
+    }
+
+    .imgServicos{
+        width: 320px;
+        border-radius: 6px;
+    }
+
+    .gridServices{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .imgUser{
+        width: 200px;
+        border-radius: 50%;
+        margin-right: 2rem;
+    }
+
+    .alignText{
+        margin-bottom: 2rem;
+        display: flex;
+    }
+
+    .boxServicos{
+        width: 320px;
+        background-color: var(--cor-cinza-dark);
+        color: var(--bg-branco);
+        border-radius: 8px;
+    }
+
+    .layoutContato{
+        grid-template-columns: 1fr 1fr;
+        justify-items: flex-end;
+    }
+
+    .setMap{
+        width: 520px; 
+        height: 300px;
+    }
+
+    .boxForm{
+        width: 420px;
+        height: 474px;
+        background-color: #3e98ff;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .formContato{
+        max-width: 340px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        width: 340px;
+        height: 35px;
+        border: none;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+        padding-left: 8px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--bg-preto);
+    }
+    
+    input:hover{
+        background-color: var(--bg-input-hover);
+    }
+    
+    textarea{
+        width: 340px;
+        height: 90px;
+        border: none;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+        padding-left: 8px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--bg-preto);
+    }
+    
+    textarea:hover{
+        background-color: var(--bg-input-hover);
+    }
+
+    .info{
+        padding: 1.2rem 0rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gridCursos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+
+    .imgCursos{
+        max-width: 400px;
+        width: 100%;
+        cursor: pointer;
+        margin-right: 0.8rem;
+    }
+
+    .boxImgCursos{
+        margin-bottom: 2.4rem;
+        padding-right: 0.8rem;
+        cursor: pointer;
+        object-fit: contain;
+    }
+}
+
+/* AJUSTES PERSONALIZADOS */
+@media screen and (min-width: 992px) and (max-width: 1290px) {
+    .descricaoFotos{
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1190px) {
+    .setMap{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1050px) {
+    .boxForm{
+        width: 390px;
+    }
+}

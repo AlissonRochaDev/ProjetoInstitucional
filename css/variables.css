@@ -1,0 +1,15 @@
+/* Arquivo CSS de Variáveis */
+:root{
+    --bg-header: #00ccff;
+    --bg-main: #f5f5f5;
+    --bg-footer: #000000;
+
+    --bg-branco: #ffffff;
+    --bg-preto: #000000;
+
+    --bg-input-back: #ababab;
+    --bg-input-hover: #dcdcdc;
+
+    --cor-cinza-claro: #a9a9a9;
+    --cor-cinza-dark: #444444;
+}
