@@ -23,14 +23,6 @@ Projeto Front-End desenvolvido em equipe com alunos, com o objetivo de criar um 
 
 ---
 
-## 🖼️ Visualização
-
-![Exemplo do Projeto](caminho/para/imagem-demo.png)
-
-> Substitua pelo caminho da sua imagem ou GIF de demonstração do site.
-
----
-
 ## 📂 Como Executar o Projeto
 
 1. Clone o repositório:
